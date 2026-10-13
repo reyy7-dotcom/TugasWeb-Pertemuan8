@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+// Salin menjadi database.local.php dan isi sesuai environment tujuan.
+// Jangan commit database.local.php karena dapat berisi credential sensitif.
+return [
+    'DB_HOST' => '127.0.0.1',
+    'DB_PORT' => '3306',
+    'DB_DATABASE' => 'tr8_inventory',
+    'DB_USERNAME' => 'root',
+    'DB_PASSWORD' => '',
+];
